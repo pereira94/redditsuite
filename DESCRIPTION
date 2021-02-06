@@ -1,12 +1,12 @@
 Package: redditsuite
 Type: Package
 Title: Helps collect and store Reddit data
-Version: 0.1.0
+Version: 0.3.0
 Author: Pedro Pereira
 Maintainer: Pedro Pereira <pedropereira0426f@gmail.com>
 Description: Helps pull data from praw, the Reddit handler written in Python.
     Stores data in a PostgreSQL database.
-License: What license is it under?
+License: MIT + file LICENSE
 Depends:
     glue
 Encoding: UTF-8
