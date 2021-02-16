@@ -13,6 +13,17 @@ connection_postgres(
   n_connection_tries = 5
 )
 }
+\arguments{
+\item{POSTGRES_HOST}{Database hostname}
+
+\item{POSTGRES_PORT}{Database port}
+
+\item{POSTGRES_PASSWORD}{Database password}
+
+\item{POSTGRES_DB}{Database name}
+
+\item{n_connection_tries}{Number of attempts to connect}
+}
 \description{
-connection_postgres
+Adds the ability to re-try connections on failure and reads from pre-defined environment variables names.
 }

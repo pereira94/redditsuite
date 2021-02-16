@@ -1,4 +1,10 @@
 #' connection_postgres
+#' @description  Adds the ability to re-try connections on failure and reads from pre-defined environment variables names.
+#' @param POSTGRES_HOST Database hostname
+#' @param POSTGRES_PORT Database port
+#' @param POSTGRES_DB Database name
+#' @param POSTGRES_PASSWORD Database password
+#' @param n_connection_tries Number of attempts to connect
 #' @export connection_postgres
 connection_postgres <- function(POSTGRES_HOST = NULL,
                                 POSTGRES_PORT = NULL,
